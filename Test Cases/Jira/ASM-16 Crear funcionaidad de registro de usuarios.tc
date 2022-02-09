@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Crear funcionaidad de registro de usuarios 
+Description: </description>
+   <name>ASM-16 Crear funcionaidad de registro de usuarios</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10037&quot;:&quot;@Registro\nFeature: Registro de usuarios\n  Como gerente de servicios\n  QUiero un fomulario\n  Para registrar usuarios en la app web\n  @Valido\n  Scenario: Registrar usuarios de manera correcta\n    Given Que yo ingreso al aplicación web \n    When yo me logue al portal del sistema\n    And visualice un formulario de registro de usuarios\n    And y ingrese los datos a cada campo de manera correcta\n    And haga clic en el boton de registrar usuario\n\tThen debo poder visulizar un mensaje modal en donde indique que el usuario fue    registrado de manera correcta&quot;,&quot;customfield_10020&quot;:[{&quot;id&quot;:3,&quot;name&quot;:&quot;Ejemplo de QA&quot;,&quot;state&quot;:&quot;active&quot;,&quot;boardId&quot;:5,&quot;goal&quot;:&quot;&quot;,&quot;startDate&quot;:&quot;2022-01-19T15:43:11.254Z&quot;,&quot;endDate&quot;:&quot;2022-01-26T15:43:00.000Z&quot;}],&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;El enlace principal solo está disponible para los usuarios de Jira Premium.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00047:&quot;},&quot;status&quot;:{&quot;id&quot;:3,&quot;description&quot;:&quot;El responsable está trabajando actualmente en esta incidencia.&quot;,&quot;iconUrl&quot;:&quot;https://asentria.atlassian.net/images/icons/statuses/inprogress.png&quot;,&quot;self&quot;:&quot;https://asentria.atlassian.net/rest/api/2/status/3&quot;,&quot;name&quot;:&quot;En curso&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://asentria.atlassian.net/rest/api/2/project/10004&quot;,&quot;key&quot;:&quot;ASM&quot;,&quot;id&quot;:10004,&quot;name&quot;:&quot;Asentria Site Manager&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Crear funcionaidad de registro de usuarios &quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;jhon@unlimitech.cloud&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Jhon Hader Rojas Cabrera&quot;,&quot;self&quot;:&quot;https://asentria.atlassian.net/rest/api/2/user?accountId\u003d61d744d69ee70a006881150c&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;jhon@unlimitech.cloud&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Jhon Hader Rojas Cabrera&quot;,&quot;self&quot;:&quot;https://asentria.atlassian.net/rest/api/2/user?accountId\u003d61d744d69ee70a006881150c&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://asentria.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://asentria.atlassian.net/rest/api/2/issue/ASM-16/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://asentria.atlassian.net/rest/api/2/issue/10020&quot;,&quot;key&quot;:&quot;ASM-16&quot;,&quot;id&quot;:10020}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>@Registro
+Feature: Registro de usuarios
+  Como gerente de servicios
+  QUiero un fomulario
+  Para registrar usuarios en la app web
+  @Valido
+  Scenario: Registrar usuarios de manera correcta
+    Given Que yo ingreso al aplicación web 
+    When yo me logue al portal del sistema
+    And visualice un formulario de registro de usuarios
+    And y ingrese los datos a cada campo de manera correcta
+    And haga clic en el boton de registrar usuario
+	Then debo poder visulizar un mensaje modal en donde indique que el usuario fue    registrado de manera correcta</comment>
+   <testCaseGuid>49a63799-89bd-44b0-a112-c30917740818</testCaseGuid>
+</TestCaseEntity>
